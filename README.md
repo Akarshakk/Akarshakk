@@ -1,4 +1,4 @@
-<!-- Snake Game Repo View -->
+<!-- Pacman Repo View -->
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/pacman.svg" alt="Snake animation" />
