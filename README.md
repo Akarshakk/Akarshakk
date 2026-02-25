@@ -1,4 +1,4 @@
-# Heyy, It's Akarshak Singh!!
+# Heyy, It's Akarshak Singh!
 
 <!-- Pacman Repo View -->
 
