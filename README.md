@@ -2,7 +2,9 @@
 
 
 
-[![](.https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=I+Code,+therefore+I+am;Machine+Learning+%7C+Full+Stack+%7C+LLMs;Building+Impactful+%26+Projects)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=I+Code,+therefore+I+am;Machine+Learning+%7C+Full Stack+%7C+LLMs;Building+Scalable+Projects;Tinkering+with+AI+%26+Automation" alt="Typing SVG" />
+</p>
 
 
 ---
