@@ -1,6 +1,6 @@
 <h1 align="center">Hey there! I'm Akarshak 👋</h1>
 
-<h3 align="center">An avid developer exploring ML, Full Stack & Deep Learning systems</h3>
+<h3 align="center">Learning about Systems that Learn</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=I+Code,+therefore+I+am;Machine+Learning+%7C+Full+Stack+%7C+LLMs;Building+Scalable+Projects;Tinkering+with+Coffee+%26+AI" alt="Typing SVG" />
