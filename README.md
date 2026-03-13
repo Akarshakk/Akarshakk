@@ -18,6 +18,12 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Akarshakk&theme=tokyonight&utcOffset=+5.5" />
 </p>
 
+<h2 align="center">📈 Activity Graph</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akarshakk&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=667eea&line=764ba2&point=ffffff&area=true&area_color=667eea" alt="Activity Graph" width="100%"/>
+</p>
+
   <!-- Pacman Repo View -->
 
 <div align="center">
