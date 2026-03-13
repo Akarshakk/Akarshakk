@@ -31,7 +31,6 @@
 </div>
 
 <p align="center">
- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"/>
-
-  <strong> Built with ❤️ by Ak </strong>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"/>
+  <strong> Built with ❤️ by aktheboss </strong>
 </p>
