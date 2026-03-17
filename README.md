@@ -6,6 +6,16 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=I+Code,+therefore+I+am;Machine+Learning+%7C+Full+Stack+%7C+LLMs;Building+Scalable+Projects;Tinkering+with+Coffee+%26+AI" alt="Typing SVG" />
 </p>
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <div id="badges">
+  <a href="https:https://www.linkedin.com/in/akarshak-singh-16406832b/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https:http://www.youtube.com/@akarshaksingh8177">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+</div>
 
 ---
 
