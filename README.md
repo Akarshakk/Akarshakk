@@ -17,7 +17,7 @@
   </a>
 </div>
 
---
+---
 
 <h2 align="center">📊 GitHub Stats Dashboard</h2>
 <p align="center">
