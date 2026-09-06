@@ -3,9 +3,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="assets/portrait-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
-    <img src="assets/portrait-dark.svg" width="300" alt="Akarshak Singh, rendered as a dot matrix">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Akarshakk/Akarshakk/main/assets/portrait-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akarshakk/Akarshakk/main/assets/portrait-light.svg">
+    <img src="https://raw.githubusercontent.com/Akarshakk/Akarshakk/main/assets/portrait-dark.svg" width="300" alt="Akarshak Singh, rendered as a dot matrix">
   </picture>
 </div>
 <br>
