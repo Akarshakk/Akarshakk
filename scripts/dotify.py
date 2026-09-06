@@ -185,7 +185,7 @@ def svg_header(w, h, rows, opts):
     bgrect = f'<rect width="100%" height="100%" fill="{opts.bg}"/>' if opts.bg else ""
     pad = opts.pad
     return (
-        f'<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'viewBox="0 0 {w + 2 * pad} {h + 2 * pad}" '
         f'width="{w + 2 * pad}" height="{h + 2 * pad}" role="img" '
         f'aria-label="dot-matrix portrait">{style}{bgrect}'
