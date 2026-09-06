@@ -9,10 +9,10 @@
 <table align="center">
   <tr>
     <td width="65%" valign="top">
-      <h3>✨ About Me:</h3>
+      <h3>About your Boy:</h3>
       <ul>
-        <li>🎓 <b>Data Science</b> Student at <b>D.J. Sanghvi College of Engineering</b>.</li>
-        <li>💻  <b>SDE</b>, <b>Data Engineering</b>, <b>Gen AI</b>.</li>
+        <li><b>Pre Final Year Student</b> at <b>D.J. Sanghvi College of Engineering</b>.</li>
+        <li><b>SDE</b>, <b>Data Engineering</b>, <b>Gen AI</b>.</li>
       </ul>
     </td>
     <td width="35%" align="center">
@@ -40,7 +40,7 @@
 
 ---
 
-<h2 align="center">⚙️ Tech Stack</h2>
+<h2>⚙️ Tech Stack</h2>
 
 **Languages:**
 
@@ -62,7 +62,7 @@
 
 `Git` • `GitHub` • `Linux` • `Jupyter` • `VS Code` • `After Effects` • `Photoshop` • `Unreal Engine`
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
@@ -99,21 +99,6 @@
 </p>
 
 ---
-
-<h2 align="center">📊 GitHub Stats Dashboard</h2>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akarshakk&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akarshakk&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akarshakk&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akarshakk&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Akarshakk&theme=tokyonight&utcOffset=+5.5" />
-</p>
-
-<h2 align="center">📈 Activity Graph</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akarshakk&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=667eea&line=764ba2&point=ffffff&area=true&area_color=667eea" alt="Activity Graph" width="100%"/>
-</p>
 
   <!-- Pacman Repo View -->
 
