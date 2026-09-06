@@ -2,27 +2,38 @@
 
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="assets/portrait-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
-    <img src="assets/portrait-dark.svg" width="300" alt="Akarshak Singh, rendered as a dot matrix">
-  </picture>
+  <img src="assets/portrait-dark.svg" width="400" alt="Akarshak Singh, rendered as a dot matrix">
 </div>
 
 
-<h3 align="center">Learning about Systems that Learn</h3>
+<table align="center">
+  <tr>
+    <td width="65%" valign="top">
+      <h3>✨ About Me:</h3>
+      <ul>
+        <li>🎓 <b>Data Science</b> Student at <b>D.J. Sanghvi College of Engineering</b>.</li>
+        <li>💻  <b>SDE</b>, <b>Data Engineering</b>, <b>Gen AI</b>.</li>
+      </ul>
+    </td>
+    <td width="35%" align="center">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25tMzRvZ3MydXEzc3d0Z2tmODhscHdqZXFzOGppdjRqMjh2aGIwNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zOvBKUUEERdNm/giphy.gif" alt="Terminal" width="100%" />
+    </td>
+  </tr>
+</table>
+
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=I+Code,+therefore+I+am;Machine+Learning+%7C+Full+Stack+%7C+LLMs;Building+Scalable+Projects;Tinkering+with+Coffee+%26+AI" alt="Typing SVG" />
 </p>
 
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="" width="100"/>
   <div id="badges">
-  <a href="https:https://www.linkedin.com/in/akarshak-singh-16406832b/">
+  <a href="https://www.linkedin.com/in/akarshak-singh-16406832b/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https:http://www.youtube.com/@akarshaksingh8177">
+  <a href="https://youtube.com/@akarshaksingh8177?si=qXmT2K1KgTIdiXXd">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
 </div>

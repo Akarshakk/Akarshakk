@@ -60,14 +60,17 @@ BRAILLE_BITS = [[0x01, 0x08], [0x02, 0x10], [0x04, 0x20], [0x40, 0x80]]
 # --------------------------------------------------------------------------- #
 
 
-def square_crop(img, fx: float, fy: float):
+def square_crop(img, fx: float, fy: float, zoom: float = 1.0):
     """Crop to 1:1 around a focus point given in 0..1 image coordinates.
 
     fx/fy name the point that should end up centred; the window is clamped so
     it never runs off the edge, so a focus near a border just slides flush.
+    zoom > 1 takes a tighter window — the default full-height square is far too
+    wide for a portrait, which leaves a face spanning only a fraction of the
+    cells and turns it to mush.
     """
     w, h = img.size
-    side = min(w, h)
+    side = min(w, h) / max(zoom, 1e-6)
     left = min(max(fx * w - side / 2, 0), w - side)
     top = min(max(fy * h - side / 2, 0), h - side)
     return img.crop((round(left), round(top), round(left) + side, round(top) + side))
@@ -76,7 +79,8 @@ def square_crop(img, fx: float, fy: float):
 def load_grid(path: Path, cols: int, contrast: float, gamma: float,
               cell_aspect: float, square: bool = False,
               focus: tuple[float, float] = (0.5, 0.5),
-              equalize: bool = False, detail: float = 0.0):
+              equalize: bool = False, detail: float = 0.0,
+              zoom: float = 1.0):
     """Return (width, height, lum[y][x] in 0..1, rgb[y][x]).
 
     If the source has an alpha channel it is treated as a subject cutout: the
@@ -97,9 +101,9 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
     img = img.convert("RGB")
 
     if square:
-        img = square_crop(img, *focus)
+        img = square_crop(img, *focus, zoom)
         if mask is not None:
-            mask = square_crop(mask, *focus)
+            mask = square_crop(mask, *focus, zoom)
 
     gray = img.convert("L")
 
@@ -358,6 +362,9 @@ def main(argv=None):
                    help="focus point for --square as fractions of width,height "
                         "(default 0.5,0.5; use e.g. 0.55,0.42 to centre a face "
                         "sitting right of and above the middle)")
+    p.add_argument("--zoom", type=float, default=1.0, metavar="Z",
+                   help="with --square, crop tighter than the full-height "
+                        "square by this factor (2.0 = half as wide a window)")
     p.add_argument("--invert", action="store_true",
                    help="big dots on DARK areas instead of light ones")
     p.add_argument("--circle", action="store_true",
@@ -400,7 +407,7 @@ def main(argv=None):
     cols, rows, lum, rgb = load_grid(args.image, args.cols, args.contrast,
                                      args.gamma, args.cell_aspect,
                                      args.square, (fx, fy),
-                                     args.equalize, args.detail)
+                                     args.equalize, args.detail, args.zoom)
 
     if args.mode in ("ascii", "braille"):
         text = (build_ascii if args.mode == "ascii" else build_braille)(
